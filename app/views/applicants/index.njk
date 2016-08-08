@@ -1,12 +1,25 @@
 {% extends "../layout.njk" %}
 
 {% block mainContent %}
-  <ul>
+
+  <div id="applicants">
+
+  <input type="text" class="live-search-box" placeholder="Search..." />
+
+  <ul class="live-search-list">
     {% for applicant in applicantsData %}
       <li>
           <a href="applicants/{{ applicant.id }}"
-            id="applicant{{ applicant.id }}">{{ applicant.name }}</a>
-      </li><br>
+            id="applicant{{ applicant.id }}">{{ applicant.name }}
+            <span>{{ applicant.candNum }}</span>
+          </a>
+      </li>
     {% endfor %}
   </ul>
+
+  </div>
+{% endblock %}
+
+{% block scripts %}
+  <script src='scripts/interface.js'></script>
 {% endblock %}

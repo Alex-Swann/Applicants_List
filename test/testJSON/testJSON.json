@@ -3,6 +3,7 @@
     {
       "id": "1",
       "name": "Helen Edwards",
+      "candNum": "831",
       "address": "34 Cattle Street",
       "number": "07712312312",
       "experience": "I've spent 3 years learning to develop my skills in front and back end web development. Technologies I've covered over this period include Python, Ruby and C#. I'm also very familiar with pair programming and TDD/BDD.",
@@ -11,6 +12,7 @@
     {
       "id": "2",
       "name": "Jacob Marley",
+      "candNum": "394",
       "address": "8A Castle Street",
       "number": "07999999999",
       "experience": "I have spent the past 8 years working for several international companies. I'm also experienced in project management",
@@ -19,6 +21,7 @@
     {
       "id": "3",
       "name": "Johnny Cash",
+      "candNum": "123",
       "address": "189 Stevens Avenue",
       "number": "07911111111",
       "experience": "I only started to learn coding at the start of 2016, however between then and now I have coded for over 1500 hours and have covered several different programming languages in that timeframe.",
