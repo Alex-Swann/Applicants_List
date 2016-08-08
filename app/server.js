@@ -8,9 +8,8 @@ var express = require('express'),
     nunjucks = require('nunjucks'),
     sass = require('node-sass-middleware');
 
-var port = parseInt(process.env.NODE_PORT) || 4000;
-
 var applicants = require('./routes/applicants');
+var port = 4000;
 
 app.use(bodyParser.json());
 app.set('view engine', 'njk');
@@ -28,8 +27,15 @@ app.use(sass({
 
 app.use(express.static('./app/public'));
 
-app.use('/', applicants);
+app.use('/applicants', applicants);
+
+app.get('*',function (req, res) {
+  res.redirect('/applicants');
+});
+
 
 app.listen(port, function(){
   console.log("\x1b[36mServer Running\x1b[0m\nhttp://localhost:" + port + "\n");
 });
+
+module.exports = app;

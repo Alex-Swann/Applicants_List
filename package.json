@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A simple web application for listing and searching applicants for a job vacancy.",
   "scripts": {
-    "test": "mocha -r should -R spec",
-    "start": "node app/server.js && supervisor ./bin/www"
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --recursive",
+    "start": "NODE_ENV=dev node app/server.js && node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,26 +18,15 @@
   "homepage": "https://github.com/Alex-Swann/Applicants_List#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "caminte": "^0.2.13",
-    "caminte-cli": "^1.0.3",
     "express": "^4.14.0",
-    "express-generator": "^4.13.4",
+    "lodash": "^4.14.1",
+    "lowdb": "^0.13.1",
     "node-sass-middleware": "^0.9.8",
-    "nunjucks": "^2.4.2",
-    "pg": "^6.0.3",
-    "postgresql": "latest",
-    "supervisor": "^0.11.0",
-    "underscore": "latest"
+    "nunjucks": "^2.4.2"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "latest",
-    "zombie": "^4.2.1",
-    "should": "latest",
-    "superagent": "latest",
-    "istanbul": "latest",
-    "jshint": "2.x"
-  },
-  "caminte": {
-    "adapter": "postgresql"
+    "zombie": "^4.2.1"
   }
 }

@@ -1,0 +1,12 @@
+{% extends "../layout.njk" %}
+
+{% block mainContent %}
+  <ul>
+    {% for applicant in applicantsData %}
+      <li>
+          <a href="applicants/{{ applicant.id }}"
+            id="applicant{{ applicant.id }}">{{ applicant.name }}</a>
+      </li><br>
+    {% endfor %}
+  </ul>
+{% endblock %}
