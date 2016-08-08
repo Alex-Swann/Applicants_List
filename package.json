@@ -23,7 +23,6 @@
     "govuk_template_mustache": "^0.18.0",
     "lodash": "^4.14.1",
     "lowdb": "^0.13.1",
-    "mustache": "^2.2.1",
     "node-sass-middleware": "^0.9.8",
     "nunjucks": "^2.4.2"
   },

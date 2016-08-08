@@ -30,11 +30,12 @@ describe('Applicants List', function(){
   });
 
   context('Further Applicant Information', function(){
+    this.timeout(15000);
 
     it('more information is displayed when a name is clicked', function(done){
       browser = this.browser;
-      console.log(browser.html());
-      browser.clickLink('Helen Edwards').then(function(){
+
+      browser.clickLink('a#applicant1').then(function(){
         expect(browser.html('#individual')).to.contain('Helen Edwards');
         expect(browser.html('#individual')).to.contain('34 Cattle Street');
       }).then(done, done);
