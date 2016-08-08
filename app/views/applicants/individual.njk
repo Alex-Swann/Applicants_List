@@ -1,14 +1,16 @@
 {% extends "../layout.njk" %}
 
 {% block mainContent %}
-  <ul>
-      <li id='individual'>
-          {{ applicantData.name }}<br>
-          {{ applicantData.address }}<br>
-          {{ applicantData.number }}<br>
-          {{ applicantData.experience }}<br>
-      </li><br>
-  </ul>
+  <div id="individual">
+    <ul>
+        <li>
+            {{ applicantData.name }}<br>
+            {{ applicantData.address }}<br>
+            {{ applicantData.number }}<br>
+            {{ applicantData.experience }}<br>
+        </li><br>
+    </ul>
 
-  <a href="/applicants">Back</a>
+    <a href="/applicants">Back</a>
+  </div>
 {% endblock %}

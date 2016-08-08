@@ -33,6 +33,7 @@ describe('Applicants List', function(){
 
     it('more information is displayed when a name is clicked', function(done){
       browser = this.browser;
+      console.log(browser.html());
       browser.clickLink('Helen Edwards').then(function(){
         expect(browser.html('#individual')).to.contain('Helen Edwards');
         expect(browser.html('#individual')).to.contain('34 Cattle Street');

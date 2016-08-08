@@ -4,18 +4,18 @@
 
   <div id="applicants">
 
-  <input type="text" class="live-search-box" placeholder="Search..." />
+    <input type="search" class="live-search-box" placeholder="Search..." />
 
-  <ul class="live-search-list">
-    {% for applicant in applicantsData %}
-      <li>
-          <a href="applicants/{{ applicant.id }}"
-            id="applicant{{ applicant.id }}">{{ applicant.name }}
-            <span>{{ applicant.candNum }}</span>
-          </a>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="live-search-list">
+      {% for applicant in applicantsData %}
+        <li>
+            <a href="applicants/{{ applicant.id }}"
+              id="applicant{{ applicant.id }}">{{ applicant.name }}
+              <span>{{ applicant.candNum }}</span>
+            </a>
+        </li>
+      {% endfor %}
+    </ul>
 
   </div>
 {% endblock %}

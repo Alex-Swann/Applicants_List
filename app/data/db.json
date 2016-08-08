@@ -26,6 +26,34 @@
       "number": "07911111111",
       "experience": "I only started to learn coding at the start of 2016, however between then and now I have coded for over 1500 hours and have covered several different programming languages in that timeframe.",
       "created_at": "Sun Aug 02 2016 19:06:27 GMT+0100 (BST)"
+    },
+    {
+      "id": "4",
+      "name": "Hussain Yemai",
+      "candNum": "423",
+      "address": "134 November Drive",
+      "number": "07712312312",
+      "experience": "I've spent 3 years learning to develop my skills in front and back end web development. Technologies I've covered over this period include Python, Ruby and C#. I'm also very familiar with pair programming and TDD/BDD.",
+      "created_at": "Sun Aug 07 2016 20:06:27 GMT+0100 (BST)"
+    },
+    {
+      "id": "5",
+      "name": "Alexei Nifontov",
+      "candNum": "512",
+      "address": "1456 Appleby Road",
+      "number": "07999999999",
+      "experience": "I have spent the past 8 years working for several international companies. I'm also experienced in project management",
+      "created_at": "Sun Aug 07 2016 19:06:27 GMT+0100 (BST)"
+    },
+    {
+      "id": "6",
+      "name": "Jasmine Pabari",
+      "candNum": "001",
+      "address": "12 St Stephens Avenue",
+      "number": "07911111111",
+      "experience": "I only started to learn coding at the start of 2016, however between then and now I have coded for over 1500 hours and have covered several different programming languages in that timeframe.",
+      "created_at": "Sun Aug 02 2016 19:06:27 GMT+0100 (BST)"
     }
+
   ]
 }

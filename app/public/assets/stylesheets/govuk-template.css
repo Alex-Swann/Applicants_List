@@ -33,14 +33,14 @@
   display: block;
   clear: both; }
 
-#global-header-bar, #global-cookie-message p, #footer .footer-wrapper {
+#global-header-bar, #applicants, #individual, #global-cookie-message p, #footer .footer-wrapper {
   max-width: 960px;
   margin: 0 15px; }
   @media (min-width: 641px) {
-    #global-header-bar, #global-cookie-message p, #footer .footer-wrapper {
+    #global-header-bar, #applicants, #individual, #global-cookie-message p, #footer .footer-wrapper {
       margin: 0 30px; } }
   @media (min-width: 1020px) {
-    #global-header-bar, #global-cookie-message p, #footer .footer-wrapper {
+    #global-header-bar, #applicants, #individual, #global-cookie-message p, #footer .footer-wrapper {
       margin: 0 auto; } }
 
 @-ms-viewport {
