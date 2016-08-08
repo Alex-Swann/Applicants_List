@@ -9,7 +9,7 @@ var express = require('express'),
     sass = require('node-sass-middleware');
 
 var applicants = require('./routes/applicants');
-var port = 4000;
+var port = process.env.PORT;
 
 app.use(bodyParser.json());
 app.set('view engine', 'njk');
@@ -35,7 +35,11 @@ app.get('*',function (req, res) {
 
 
 app.listen(port, function(){
-  console.log("\x1b[36mServer Running\x1b[0m\nhttp://localhost:" + port + "\n");
+  if(port == 4000){
+    console.log("\x1b[36mServer Running\x1b[0m\nhttp://localhost:" + port + "\n");
+  } else {
+    console.log("\x1b[36mTest Server Running\x1b[0m\nhttp://localhost:" + port + "\n");
+  }
 });
 
 module.exports = app;

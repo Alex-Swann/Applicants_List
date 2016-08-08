@@ -4,11 +4,10 @@ var Browser = require('zombie');
 var app =  require('../../app/server');
 
 describe('Applicants List', function(){
-
+  this.timeout(15000);
   var browser;
 
   before(function(done){
-    this.server = app.listen(4001);
     this.browser = new Browser({ site: 'http://localhost:4001' });
     this.browser.visit('/', done);
   });
@@ -30,7 +29,6 @@ describe('Applicants List', function(){
   });
 
   context('Further Applicant Information', function(){
-    this.timeout(15000);
 
     it('more information is displayed when a name is clicked', function(done){
       browser = this.browser;

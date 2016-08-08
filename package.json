@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A simple web application for listing and searching applicants for a job vacancy.",
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/mocha --recursive",
-    "start": "NODE_ENV=dev node app/server.js && node ./bin/www"
+    "test": "NODE_ENV=test PORT=4001 ./node_modules/.bin/mocha --recursive",
+    "start": "NODE_ENV=dev PORT=4000 node app/server.js && node ./bin/www"
   },
   "repository": {
     "type": "git",
