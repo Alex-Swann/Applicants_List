@@ -4,17 +4,11 @@
 
 var lod = require('lodash'),
     low = require('lowdb'),
-    db,
     data,
     user;
 
-if(process.env.NODE_ENV === 'dev'){
-  db = low(__dirname + '/../data/db' + '.json' );
-} else if(process.env.NODE_ENV === 'test') {
-  db = low(__dirname + '/../../test/testJSON/testJSON' + '.json' );
-} else {
-  console.log('Error reading json file!');
-}
+
+var db = low(__dirname + process.env.DB + '.json' );
 
 var router = require('express').Router();
 

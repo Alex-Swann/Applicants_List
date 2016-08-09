@@ -8,7 +8,7 @@ describe('Applicants List', function(){
   var browser;
 
   before(function(done){
-    this.browser = new Browser({ site: 'http://localhost:4001' });
+    this.browser = new Browser({ site: 'http://localhost:' + process.env.PORT });
     this.browser.visit('/', done);
   });
 
