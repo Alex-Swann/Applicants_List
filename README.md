@@ -1,7 +1,27 @@
 [![Build Status](https://travis-ci.org/Alex-Swann/Applicants_List.svg?branch=master)](https://travis-ci.org/Alex-Swann/Applicants_List) [![Coverage Status](https://coveralls.io/repos/github/Alex-Swann/Applicants_List/badge.svg?branch=master)](https://coveralls.io/github/Alex-Swann/Applicants_List?branch=master)
 
-# Applicants_List
+# GOV.UK Applicants List
 A simple web application using a design based on the GOV.UK frontend toolkit for listing and searching applicants for a job vacancy.
+
+## Setup
+```
+$ git clone git@github.com:Alex-Swann/Applicants_List.git
+$ cd Applicants_List
+$ npm install
+```
+### To run program
+```
+$ npm start
+$ open http://localhost:4000
+```
+### To run tests and coveralls
+```
+$ npm run test-cov
+```
+### To run just tests
+```
+$ npm test
+```
 
 ## User Stories
 
