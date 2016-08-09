@@ -1,11 +1,11 @@
-var expect = require('chai').expect;
-var assert = require('assert');
-var Browser = require('zombie');
-var app =  require('../../app/server');
+var expect = require('chai').expect,
+    assert = require('assert'),
+    Browser = require('zombie'),
+    app =  require('../../app/server'),
+    browser;
 
-describe('Applicants List', function(){
+describe('Applicants List Feature Test', function(){
   this.timeout(15000);
-  var browser;
 
   before(function(done){
     this.browser = new Browser({ site: 'http://localhost:' + process.env.PORT });
