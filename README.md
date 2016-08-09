@@ -9,16 +9,16 @@ $ git clone git@github.com:Alex-Swann/Applicants_List.git
 $ cd Applicants_List
 $ npm install
 ```
-### To run program
+###### To run program
 ```
 $ npm start
 $ open http://localhost:4000
 ```
-### To run tests and coveralls
+###### To run tests and coveralls
 ```
 $ npm run test-cov
 ```
-### To run just tests
+###### To run just tests
 ```
 $ npm test
 ```
