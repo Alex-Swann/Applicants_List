@@ -5,7 +5,8 @@
   "scripts": {
     "start": "DB=/../data/db PORT=4000 node app/server.js && node ./bin/www",
     "test": "DB=/../../test/testJSON/testJSON PORT=4001 ./node_modules/.bin/mocha --recursive",
-    "test-cov": "DB=/../../test/testJSON/testJSON PORT=4002 ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+    "test-cov": "DB=/../../test/testJSON/testJSON PORT=4002 ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "coveralls": "^2.11.12",
     "istanbul": "^0.4.4",
     "mocha": "latest",
+    "mocha-lcov-reporter": "^1.2.0",
     "zombie": "^4.2.1"
   }
 }
