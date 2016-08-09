@@ -9,7 +9,7 @@ $ git clone git@github.com:Alex-Swann/Applicants_List.git
 $ cd Applicants_List
 $ npm install
 ```
-### To run program
+## To run program
 ```
 $ npm start
 $ open http://localhost:4000

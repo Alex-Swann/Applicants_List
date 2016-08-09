@@ -1,6 +1,5 @@
-;(function(){
+;(function(exports){
   'use strict';
-})();
 
 var express = require('express'),
     app = express(),
@@ -37,3 +36,5 @@ app.listen(port, function(){
 });
 
 module.exports = app;
+
+})(this);
