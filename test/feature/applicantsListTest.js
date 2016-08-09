@@ -1,8 +1,8 @@
 var expect = require('chai').expect,
-    assert = require('assert'),
     Browser = require('zombie'),
-    app =  require('../../app/server'),
     browser;
+
+require('../../app/server');
 
 describe('Applicants List Feature Test', function(){
   this.timeout(15000);
@@ -42,7 +42,6 @@ describe('Applicants List Feature Test', function(){
     it('you can go back to main page after clicking a name', function(done){
       browser = this.browser;
       browser.clickLink('Back').then(function(){
-          assert.ok(browser.success);
           expect(browser.html('#applicant1')).to.contain('Helen Edwards');
           expect(browser.html()).to.not.contain('34 Cattle Street');
       }).then(done, done);
