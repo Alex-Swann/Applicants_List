@@ -1,21 +1,24 @@
 {% extends "../layout.njk" %}
 
 {% block mainContent %}
-
+  <br>
   <div id="applicants">
 
-    <input type="search" class="live-search-box" placeholder="Search..." />
+    <div><em>Search by candidate name or number</em><br>
+      <input type="search" class="live-search-box" placeholder="Search..." />
+    </div>
 
-    <ul class="live-search-list">
-      {% for applicant in applicantsData %}
-        <li>
-            <a href="applicants/{{ applicant.id }}"
-              id="applicant{{ applicant.id }}">{{ applicant.name }}
-              <span>{{ applicant.candNum }}</span>
-            </a>
-        </li>
-      {% endfor %}
-    </ul>
+      <ul class="live-search-list">
+        {% for applicant in applicantsData %}
+          <li class="search-item">
+              <a href="applicants/{{ applicant.id }}" id="applicant{{ applicant.id }}">
+                {{ applicant.name }}
+              </a><br>
+              <span class="candNum" >Candidate No: {{ applicant.candNum }} </span>
+          </li>
+        {% endfor %}
+      </ul>
+
 
   </div>
 {% endblock %}

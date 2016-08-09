@@ -1,5 +1,5 @@
 ;(function(exports) {
-    'use strict';
+  'use strict';
 
   var lod = require('lodash'),
       low = require('lowdb'),

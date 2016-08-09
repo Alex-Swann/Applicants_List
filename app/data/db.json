@@ -6,7 +6,34 @@
       "candNum": "831",
       "address": "34 Cattle Street",
       "number": "07712312312",
-      "experience": "I've spent 3 years learning to develop my skills in front and back end web development. Technologies I've covered over this period include Python, Ruby and C#. I'm also very familiar with pair programming and TDD/BDD.",
+      "experience": [{
+                        "job": "Retail Assistant",
+                        "points": [
+                                    "Worked as part of a team to receive early morning deliveries, maintain warehouse standards and provide customer service. I am constantly under pressure to finish my tasks before the deadline every shift.",
+                                    "Developed excellent communication and customer liaison skills. I’ve shown initiative and teamwork skills by supporting other team members with their tasks after finishing my own."
+                                  ]
+                      },
+                      {
+                        "job": "Customer Services Assistant ",
+                         "points": [
+                                      "Encouraged colleagues to reach work targets collectively creating team spirit.",
+                                      "Tidied up the shop floor and maintained stock in pristine condition.",
+                                      "Dealt with telephone calls and queries from other stores such as searching for coded items in order to price them."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                         "points": [
+                                    "Carried out a range of clerical duties such as photocopying and filing hence familiar with basic office equipment."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                        "points": [
+                                    "Worked as part of a very small team from a variety of social backgrounds to run an RSPCA charity shop in Keighley city centre.",
+                                    "Supported the manager by unloading deliveries and using practical skills to display goods for resale."
+                                  ]
+                    }],
       "created_at": "Sun Aug 07 2016 20:06:27 GMT+0100 (BST)"
     },
     {
@@ -15,7 +42,34 @@
       "candNum": "394",
       "address": "8A Castle Street",
       "number": "07999999999",
-      "experience": "I have spent the past 8 years working for several international companies. I'm also experienced in project management",
+      "experience": [{
+                        "job": "Retail Assistant",
+                        "points": [
+                                    "Worked as part of a team to receive early morning deliveries, maintain warehouse standards and provide customer service. I am constantly under pressure to finish my tasks before the deadline every shift.",
+                                    "Developed excellent communication and customer liaison skills. I’ve shown initiative and teamwork skills by supporting other team members with their tasks after finishing my own."
+                                  ]
+                      },
+                      {
+                        "job": "Customer Services Assistant ",
+                         "points": [
+                                      "Encouraged colleagues to reach work targets collectively creating team spirit.",
+                                      "Tidied up the shop floor and maintained stock in pristine condition.",
+                                      "Dealt with telephone calls and queries from other stores such as searching for coded items in order to price them."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                         "points": [
+                                    "Carried out a range of clerical duties such as photocopying and filing hence familiar with basic office equipment."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                        "points": [
+                                    "Worked as part of a very small team from a variety of social backgrounds to run an RSPCA charity shop in Keighley city centre.",
+                                    "Supported the manager by unloading deliveries and using practical skills to display goods for resale."
+                                  ]
+                    }],
       "created_at": "Sun Aug 07 2016 19:06:27 GMT+0100 (BST)"
     },
     {
@@ -24,7 +78,34 @@
       "candNum": "123",
       "address": "189 Stevens Avenue",
       "number": "07911111111",
-      "experience": "I only started to learn coding at the start of 2016, however between then and now I have coded for over 1500 hours and have covered several different programming languages in that timeframe.",
+      "experience": [{
+                        "job": "Retail Assistant",
+                        "points": [
+                                    "Worked as part of a team to receive early morning deliveries, maintain warehouse standards and provide customer service. I am constantly under pressure to finish my tasks before the deadline every shift.",
+                                    "Developed excellent communication and customer liaison skills. I’ve shown initiative and teamwork skills by supporting other team members with their tasks after finishing my own."
+                                  ]
+                      },
+                      {
+                        "job": "Customer Services Assistant ",
+                         "points": [
+                                      "Encouraged colleagues to reach work targets collectively creating team spirit.",
+                                      "Tidied up the shop floor and maintained stock in pristine condition.",
+                                      "Dealt with telephone calls and queries from other stores such as searching for coded items in order to price them."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                         "points": [
+                                    "Carried out a range of clerical duties such as photocopying and filing hence familiar with basic office equipment."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                        "points": [
+                                    "Worked as part of a very small team from a variety of social backgrounds to run an RSPCA charity shop in Keighley city centre.",
+                                    "Supported the manager by unloading deliveries and using practical skills to display goods for resale."
+                                  ]
+                    }],
       "created_at": "Sun Aug 02 2016 19:06:27 GMT+0100 (BST)"
     },
     {
@@ -33,7 +114,34 @@
       "candNum": "423",
       "address": "134 November Drive",
       "number": "07712312312",
-      "experience": "I've spent 3 years learning to develop my skills in front and back end web development. Technologies I've covered over this period include Python, Ruby and C#. I'm also very familiar with pair programming and TDD/BDD.",
+      "experience": [{
+                        "job": "Retail Assistant",
+                        "points": [
+                                    "Worked as part of a team to receive early morning deliveries, maintain warehouse standards and provide customer service. I am constantly under pressure to finish my tasks before the deadline every shift.",
+                                    "Developed excellent communication and customer liaison skills. I’ve shown initiative and teamwork skills by supporting other team members with their tasks after finishing my own."
+                                  ]
+                      },
+                      {
+                        "job": "Customer Services Assistant ",
+                         "points": [
+                                      "Encouraged colleagues to reach work targets collectively creating team spirit.",
+                                      "Tidied up the shop floor and maintained stock in pristine condition.",
+                                      "Dealt with telephone calls and queries from other stores such as searching for coded items in order to price them."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                         "points": [
+                                    "Carried out a range of clerical duties such as photocopying and filing hence familiar with basic office equipment."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                        "points": [
+                                    "Worked as part of a very small team from a variety of social backgrounds to run an RSPCA charity shop in Keighley city centre.",
+                                    "Supported the manager by unloading deliveries and using practical skills to display goods for resale."
+                                  ]
+                    }],
       "created_at": "Sun Aug 07 2016 20:06:27 GMT+0100 (BST)"
     },
     {
@@ -42,7 +150,34 @@
       "candNum": "512",
       "address": "1456 Appleby Road",
       "number": "07999999999",
-      "experience": "I have spent the past 8 years working for several international companies. I'm also experienced in project management",
+      "experience": [{
+                        "job": "Retail Assistant",
+                        "points": [
+                                    "Worked as part of a team to receive early morning deliveries, maintain warehouse standards and provide customer service. I am constantly under pressure to finish my tasks before the deadline every shift.",
+                                    "Developed excellent communication and customer liaison skills. I’ve shown initiative and teamwork skills by supporting other team members with their tasks after finishing my own."
+                                  ]
+                      },
+                      {
+                        "job": "Customer Services Assistant ",
+                         "points": [
+                                      "Encouraged colleagues to reach work targets collectively creating team spirit.",
+                                      "Tidied up the shop floor and maintained stock in pristine condition.",
+                                      "Dealt with telephone calls and queries from other stores such as searching for coded items in order to price them."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                         "points": [
+                                    "Carried out a range of clerical duties such as photocopying and filing hence familiar with basic office equipment."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                        "points": [
+                                    "Worked as part of a very small team from a variety of social backgrounds to run an RSPCA charity shop in Keighley city centre.",
+                                    "Supported the manager by unloading deliveries and using practical skills to display goods for resale."
+                                  ]
+                    }],
       "created_at": "Sun Aug 07 2016 19:06:27 GMT+0100 (BST)"
     },
     {
@@ -51,7 +186,34 @@
       "candNum": "001",
       "address": "12 St Stephens Avenue",
       "number": "07911111111",
-      "experience": "I only started to learn coding at the start of 2016, however between then and now I have coded for over 1500 hours and have covered several different programming languages in that timeframe.",
+      "experience": [{
+                        "job": "Retail Assistant",
+                        "points": [
+                                    "Worked as part of a team to receive early morning deliveries, maintain warehouse standards and provide customer service. I am constantly under pressure to finish my tasks before the deadline every shift.",
+                                    "Developed excellent communication and customer liaison skills. I’ve shown initiative and teamwork skills by supporting other team members with their tasks after finishing my own."
+                                  ]
+                      },
+                      {
+                        "job": "Customer Services Assistant ",
+                         "points": [
+                                      "Encouraged colleagues to reach work targets collectively creating team spirit.",
+                                      "Tidied up the shop floor and maintained stock in pristine condition.",
+                                      "Dealt with telephone calls and queries from other stores such as searching for coded items in order to price them."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                         "points": [
+                                    "Carried out a range of clerical duties such as photocopying and filing hence familiar with basic office equipment."
+                                    ]
+                      },
+                      {
+                        "job": "Volunteer",
+                        "points": [
+                                    "Worked as part of a very small team from a variety of social backgrounds to run an RSPCA charity shop in Keighley city centre.",
+                                    "Supported the manager by unloading deliveries and using practical skills to display goods for resale."
+                                  ]
+                    }],
       "created_at": "Sun Aug 02 2016 19:06:27 GMT+0100 (BST)"
     }
 

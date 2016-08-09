@@ -2,12 +2,11 @@
   'use strict';
 
   var express = require('express'),
-      app = express(),
       nunjucks = require('nunjucks'),
-      sass = require('node-sass-middleware');
-
-  var applicants = require('./routes/applicants');
-  var port = process.env.PORT;
+      sass = require('node-sass-middleware'),
+      app = express(),
+      applicants = require('./routes/applicants'),
+      port = process.env.PORT;
 
   app.set('view engine', 'njk');
 

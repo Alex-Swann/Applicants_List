@@ -1,5 +1,5 @@
 ;(function(exports) {
-    'use strict';
+  'use strict';
 
   var router = require('express').Router(),
       Applicant = require('../models/applicant'),

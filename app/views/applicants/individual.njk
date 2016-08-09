@@ -2,12 +2,24 @@
 
 {% block mainContent %}
   <div id="individual">
-    <ul>
-        <li>
-            {{ applicantData.name }}<br>
-            {{ applicantData.address }}<br>
-            {{ applicantData.number }}<br>
-            {{ applicantData.experience }}<br>
+    <ul><br>
+        <li class="list-header">
+            <span class="candName">{{ applicantData.name }}</span><br>
+            Address: {{ applicantData.address }}<br>
+            Contact Number: {{ applicantData.number }}<br><br>
+            <h2 class="workExp">Work Experience</h2>
+
+            <ul>
+              {% for entry in applicantData.experience %}
+                    <li><strong>{{ entry.job }}</strong></li>
+                    <ul>
+                      {% for point in entry.points %}
+                        <li class="list-point">{{ point }}</li>
+                      {% endfor %}
+                    </ul>
+              {% endfor %}
+            </ul>
+
         </li><br>
     </ul>
 
