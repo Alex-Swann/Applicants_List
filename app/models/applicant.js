@@ -1,19 +1,20 @@
 ;(function(exports) {
   'use strict';
 
-  var lod = require('lodash'),
-      low = require('lowdb'),
-      db = low(__dirname + process.env.DB + '.json' );
+  var low = require('lowdb'),
+      db = low(__dirname + process.env.DB + '.json' ).get('applicants');
 
   function Applicant(){
   }
 
   Applicant.prototype = {
     getAll: function(){
-      return db.get('applicants').value();
+      return db.value();
     },
-    findByID: function(data, req){
-      return lod.find(data, {id: req.params.id });
+    findByID: function(req){
+      return db.filter(function(db){
+        return db.id == req.params.id;
+      }).value()[0];
     }
   };
 

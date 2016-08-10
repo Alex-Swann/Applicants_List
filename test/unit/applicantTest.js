@@ -19,7 +19,7 @@ describe('Applicant Model', function(){
     });
 
     it('should be able to return one applicant by their ID', function(){
-      var entry = request.findByID( data, {params: {id: '3'}} );
+      var entry = request.findByID( {params: {id: '3'}} );
       expect(entry.name).to.eql('Johnny Cash');
     });
 

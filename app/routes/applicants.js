@@ -15,7 +15,7 @@
   });
 
   router.get('/:id', function(req, res) {
-    user = request.findByID( request.getAll(), req );
+    user = request.findByID(req);
     res.render('applicants/individual', {
       applicantData: user
     });
