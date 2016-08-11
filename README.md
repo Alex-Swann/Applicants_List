@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/Alex-Swann/Applicants_List.svg?branch=master)](https://travis-ci.org/Alex-Swann/Applicants_List) [![Coverage Status](https://coveralls.io/repos/github/Alex-Swann/Applicants_List/badge.svg?branch=master)](https://coveralls.io/github/Alex-Swann/Applicants_List?branch=master) [ ![Codeship Status for Alex-Swann/Applicants_List](https://codeship.com/projects/75327930-4093-0134-4cbf-2e3eade03982/status?branch=master)](https://codeship.com/projects/167743) [![Code Climate](https://codeclimate.com/github/Alex-Swann/Applicants_List/badges/gpa.svg)](https://codeclimate.com/github/Alex-Swann/Applicants_List)
+[![Build Status](https://travis-ci.org/Alex-Swann/Applicants_List.svg?branch=master)](https://travis-ci.org/Alex-Swann/Applicants_List) [![Coverage Status](https://coveralls.io/repos/github/Alex-Swann/Applicants_List/badge.svg?branch=master)](https://coveralls.io/github/Alex-Swann/Applicants_List?branch=master) [![bitHound Dependencies](https://www.bithound.io/github/Alex-Swann/Applicants_List/badges/dependencies.svg)](https://www.bithound.io/github/Alex-Swann/Applicants_List/master/dependencies/npm) [![Code Climate](https://codeclimate.com/github/Alex-Swann/Applicants_List/badges/gpa.svg)](https://codeclimate.com/github/Alex-Swann/Applicants_List)
 
 # GOV.UK Applicants List
-A simple web application using a design based on the GOV.UK frontend toolkit for listing and searching applicants for a job vacancy.
+A simple Node.js web application using a design based on the GOV.UK frontend toolkit for listing and searching applicants for a job vacancy.
 
 ## Setup
 ```
